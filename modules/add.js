@@ -1,8 +1,8 @@
-import { tasks } from "../script.js";
+import { tasks } from '../index.js';
 
 export function addTask(taskName) {
-  if (taskName.trim() === "") {
-    console.log("Название задачи не может быть пустым.");
+  if (taskName.trim() === '') {
+    console.log('Название задачи не может быть пустым.');
     return;
   }
   tasks.push({ name: taskName, completed: false });

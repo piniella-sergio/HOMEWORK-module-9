@@ -1,4 +1,4 @@
-import { tasks } from "../script.js";
+import { tasks } from '../index.js';
 
 export function completeTask(taskName) {
   let task = tasks.find((t) => t.name === taskName);

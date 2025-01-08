@@ -1,4 +1,4 @@
-import { tasks } from "../script.js";
+import { tasks } from '../index.js';
 
 export function deleteTask(taskName) {
   const initialLength = tasks.length;

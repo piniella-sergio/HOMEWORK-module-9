@@ -1,0 +1,16 @@
+{
+  "name": "homework-module-9",
+  "version": "1.0.0",
+  "description": "Использовать инструменты для улучшения качества кода, автоматического форматирования, <br> анализа производительности веб-страниц и отслеживания ошибок.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^9.17.0"
+  }
+}
